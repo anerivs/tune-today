@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fcebff !important; /* light purple background */
+}
+
+.App {
+  text-align: center;
+  color: #4a148c; /* darker purple for text */
+}
+
+input[type="text"], input[type="date"], button {
+  font-family: 'Georgia', serif;
+  margin: 10px;
+  padding: 8px;
+  border: 2px solid #7e57c2; /* moderate purple */
+  border-radius: 4px;
+}
+
+button {
+  background-color: #ab47bc; /* vibrant purple */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 4px !important;
+  padding: 10px 10px;
+  margin: 10px !important;
+}
+
+button:hover {
+  background-color: #ce93d8; /* lighter purple */
+}
+
+input[type="text"]:focus, input[type="date"]:focus {
+  outline: none;
+  border-color: #d500f9; /* vivid purple */
+}
+
+h1,h2,h3 {
+  color: #6a1b9a; /* deep purple */
+  font-family: "Titillium Web", sans-serif;
+  margin-top: 30px !important;
+}
+
+.song-details {
+  background-color: #eee;  
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  text-align: center;
+}
+
+.song-details h2 {
+  color: #5a2971;
+  margin-bottom: 5px;
+}
+
+.song-details p {
+  color: #6a1b9a;
+  margin: 5px 0;
+}
+
+.song-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 100px;
+  
+}
+
+.song-box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 15px;
+  filter: drop-shadow(6px 6px 4px rgba(106, 57, 154, 0.5));
+}
+
+.navbar.bg-body-tertiary{
+  background-color: #f7c3ff !important;
+  height: 80px;
+  box-shadow: 0 10px 20px rgba(106,57,154,0.5); 
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.searchForm{
+  margin-top: 80px !important;
+}
